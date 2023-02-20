@@ -1124,7 +1124,7 @@ const DefaultType$b = {
  * Class definition
  */
 
-export class Carousel extends BaseComponent {
+class Carousel extends BaseComponent {
     constructor(element, config) {
         super(element, config);
         this._interval = null;
